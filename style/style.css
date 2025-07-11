@@ -333,5 +333,6 @@ footer ul a{
 .navigation{
     display: flex;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: auto;
 }
