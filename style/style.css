@@ -291,3 +291,42 @@ main textarea{
     background-color: orange;
     color:white;
 }
+
+/* footer design */
+footer {
+    background-color: white;
+}
+footer h1{
+font-size: 100px;
+font-weight: bolder;
+margin: 0%;
+}
+footer p{
+    color: #8987A1;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    color: #8987A1;
+    list-style: none;
+    
+}
+footer ul a{
+    color: #8987A1;
+    text-decoration: none;
+  
+}
+
+
+.footer-container{
+    padding:103px 520px;
+    text-align: center;
+    margin: 0;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
