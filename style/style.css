@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #F5F8FF;
 }
 
@@ -157,7 +157,7 @@ nav h3 {
     font-size: 16px;
     font-weight: 600;
     color: #757575;
-   margin: 0px;
+    margin: 0px;
 }
 
 .reviewer-data p {
@@ -166,23 +166,25 @@ nav h3 {
     margin: 0px;
 }
 
-#review-box{
-   
+#review-box {
+
     border-radius: 14px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 24px;
     /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ; */
 }
 
-.stars{
+.stars {
     margin-bottom: 24px;
 }
-.review-image{
+
+.review-image {
     height: 40px;
     width: 40px;
     border-radius: 50%;
 }
-.reviewer-data{
+
+.reviewer-data {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -190,8 +192,36 @@ nav h3 {
 }
 
 
-.review-section-elements{
+.review-section-elements {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+}
+
+.focus h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+.focus p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.focus img{
+    border-radius: 48px;
+    
+}
+.focus .btn{
+    margin-bottom: 20px;
+}
+.focus{
+   
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px 150px;
+    text-align: center;
+
 }
