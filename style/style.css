@@ -1,0 +1,122 @@
+/* shared design  */
+
+.primary-color {
+    color: #4E47FF;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn {
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+section{
+    margin: 100px 150px;
+}
+/* header design  */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+nav h3 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+/* banner design  */
+.banner {
+    margin: 0 230px;
+    text-align: center;
+    padding-top: 158px;
+    padding-bottom: 200px;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.header {
+    background-image: url('../Assets/Hero-bg.png');
+}
+
+/* see it in action design  */
+
+.see-it-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-it-container h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.see-it-container p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.see-it-container .image{
+    border-radius: 48px;
+}
+.see-it-container-left-content{
+    max-width: 517px;
+}
+
+/* design Productive-Users-Section-heading  */
+.Productive-Users-Section-heading{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.Productive-Users-Section-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Productive-Users-Section-data h1{
+    font-size: 80px;
+    font-weight:bold;
+    color: #4E47FF;
+    margin: 0px;
+    
+}
+
+.Productive-Users-Section-data p{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5);
+}
+#Productive-Users-Section{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.Productive-Users-Section-data {
+    padding: 0;
+}
