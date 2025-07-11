@@ -310,7 +310,7 @@ footer p{
 footer ul{
     color: #8987A1;
     list-style: none;
-    
+    padding: 0px;
 }
 footer ul a{
     color: #8987A1;
