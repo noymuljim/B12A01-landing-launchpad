@@ -267,9 +267,14 @@ main input[type="text"] {
     padding: 20px 32px;
     border: 1px solid #D6DDED;
     width: 497px;
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 19px;
 }
 main textarea{
+color: rgba(0, 0, 0, 0.5);
+    
+    
+
     background-color: white;
     border-radius: 10px;
     padding: 20px 32px;
