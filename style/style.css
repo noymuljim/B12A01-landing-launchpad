@@ -203,6 +203,7 @@ nav h3 {
     font-size: 50px;
     margin: 0;
 }
+
 .focus p {
     font-weight: 400;
     font-size: 16px;
@@ -210,18 +211,83 @@ nav h3 {
     padding-bottom: 20px;
     margin: 0;
 }
-.focus img{
+
+.focus img {
     border-radius: 48px;
-    
+
 }
-.focus .btn{
+
+.focus .btn {
     margin-bottom: 20px;
 }
-.focus{
-   
+
+.focus {
+
     background-color: white;
     border-radius: 14px;
     padding: 71px 150px;
     text-align: center;
 
+}
+
+/* lets get in touch design  */
+.left-design {
+    max-width: 528px;
+}
+
+/* .right-design {
+    max-width: 497px;
+} */
+
+.left-design h1 {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.get-touch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-design .label {
+    font-weight: medium;
+    font-size: 18px;
+    color: black;
+}
+
+.right-design .demo-text {
+    font-size: 20px;
+}
+
+main input[type="email"],
+main input[type="text"] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    width: 497px;
+    margin-bottom: 19px;
+}
+main textarea{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    width: 497px;
+    margin-bottom: 19px;
+}
+.get-touch-btn{
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 560px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.get-touch-btn:hover{
+    background-color: orange;
+    color:white;
 }
